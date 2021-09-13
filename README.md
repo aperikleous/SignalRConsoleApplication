@@ -1,13 +1,13 @@
 # SignalRConsoleApplication
 SignalR Console app w/ PostgreSQL database
 
-Here are the basic steps in order to run the whole project smoothly:
+Here are the basic steps in order to run this project smoothly:
 
 1.Clone the repo locally
 
 2.Change the connection string in DBConnection.cs inside SignalRConsoleDatabase to use your local database
 
-3.Build the solution
+3.Build the solution (.sln in SignalRConsoleApp project)
 
 4.Restore packages (if missing)
 
@@ -17,4 +17,4 @@ Here are the basic steps in order to run the whole project smoothly:
 
 7.While the solution is running, browse Solution Explorer for the SignalRConsoleClient project, right-click on it, select "Debug", then "Start New Instance"
 
-8.Alternatively, configure both as startup projects
+8.Alternatively, configure both the SignalRConsoleApp and the SignalRConsoleClient as startup projects
